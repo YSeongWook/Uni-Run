@@ -116,9 +116,9 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/KGA/Unity/Uni-Run/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
--r:"C:/KGA/Unity/Uni-Run/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
--r:"C:/KGA/Unity/Uni-Run/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
+-r:"C:/Git/Uni-Run/Uni-Run/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Git/Uni-Run/Uni-Run/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
+-r:"C:/Git/Uni-Run/Uni-Run/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -341,12 +341,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BackgroundLoop.cs"
+"Assets/Scripts/Coin.cs"
+"Assets/Scripts/CoinSpawner.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Platform.cs"
 "Assets/Scripts/PlatformSpawner.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/ScrollingObject.cs"
 "Assets/Scripts/Singleton.cs"
+"Assets/Scripts/TripleCoin.cs"
 -langversion:9.0
 
 /deterministic

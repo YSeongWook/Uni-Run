@@ -69,14 +69,6 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        /*
-        if (other.tag == "Dead" && !isDead)
-        {
-            // 충돌한 상대방의 태그가 Dead이며 아직 사망하지 않았다면 Die() 실행
-            Die();
-        }
-        */
-
         if (other.CompareTag("Dead") && !isDead)
         {
             // 충돌한 상대방의 태그가 Dead이며 아직 사망하지 않았다면 Die() 실행
@@ -91,6 +83,12 @@ public class PlayerController : MonoBehaviour {
             // isGrounded를 true로 변경하고, 누적 점프 횟수를 0으로 리셋
             isGrounded = true;
             jumpCount = 0;
+        }
+
+        // Left Deadzone 처리
+        if(collision.gameObject.tag == "Dead")
+        {
+            Die();
         }
     }
 
